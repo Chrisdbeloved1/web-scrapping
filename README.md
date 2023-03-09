@@ -8,10 +8,15 @@ In this project, you will use the requests and BeautifulSoup libraries to send a
 Your task is to implement the WebScraper class in main.py. This class should have the following methods:
 
 get_links: This method should return a list of all the links on the webpage.
+
 get_title: This method should return the title of the webpage.
+
 get_images: This method should return a list of all the images on the webpage.
+
 get_headings: This method should return a list of all the headings (h1-h6) on the webpage.
+
 get_paragraphs: This method should return a list of all the paragraphs on the webpage.
+
 get_metadata: This method should return a dictionary of all the metadata on the webpage.
 
 You will need to fill in the code for each of the methods that has a 'TODO' string.
@@ -33,10 +38,15 @@ You can then call any of the methods on the WebScraper object to extract informa
 
 
 links = udemy.get_links()
+
 title = udemy.get_title()
+
 images = udemy.get_images()
+
 headings = udemy.get_headings()
+
 paragraphs = udemy.get_paragraphs()
+
 metadata = udemy.get_metadata()
 
 Testing
