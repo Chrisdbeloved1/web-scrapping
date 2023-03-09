@@ -1,13 +1,16 @@
 # Web Scraper
 
-Web scraping is the process of extracting data from websites. In this project, you will write a web scraper that extracts information from a webpage using Python. Some real-life examples of web scraping include price comparison websites, stock market analysis, and social media sentiment analysis.
+Web scraping is the process of extracting data from websites. 
+In this project, you will write a web scraper that extracts information from a webpage using Python. 
+
+Some real-life examples of web scraping include price comparison websites, stock market analysis, and social media sentiment analysis.
 
 In this project, you will use the requests and BeautifulSoup libraries to send a request to a webpage, parse the HTML content, and extract useful information.
 
 ## Your Task
 Your task is to implement the WebScraper class in main.py. This class should have the following methods:
 
-get_links: This method should return a list of all the links on the webpage.
+# get_links: This method should return a list of all the links on the webpage.
 
 get_title: This method should return the title of the webpage.
 
